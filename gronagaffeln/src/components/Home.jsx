@@ -1,9 +1,13 @@
 import React from 'react';
 
+
 export function Home() {
     return (
         <>
-            <div>Home</div>
+        <section>
+            <div className="hero-image">Hero image</div>
+            <button>Se meny</button>
+        </section>
         </>
     );
 }
