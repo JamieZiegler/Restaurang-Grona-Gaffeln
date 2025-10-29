@@ -4,11 +4,14 @@ import { Home } from './components/Home'
 
 function App() {
 
-
   return (
     <>
       <Header></Header>
       <Home></Home>
+      <About></About>
+      <Menu></Menu>
+      <Review></Review>
+      <Contact></Contact>
       <Footer></Footer>
     </>
   )
