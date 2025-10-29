@@ -1,9 +1,10 @@
 import React from "react";
 
-function Header () {
+export function Header () {
 
     return (
         <>
+
         <div className="logo">
             <img src="src/assets/fork-transparent.svg" alt="Grona Gaffeln Logo" />
         </div>
@@ -18,4 +19,3 @@ function Header () {
 
 
 }
-    export default Header
