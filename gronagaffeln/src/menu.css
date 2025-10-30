@@ -1,0 +1,14 @@
+.menu-container, .menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-description {
+    width: 50%;
+}
+
+.menu-img {
+    width: 50%;
+}
