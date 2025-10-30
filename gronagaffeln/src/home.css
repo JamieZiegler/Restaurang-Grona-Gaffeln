@@ -1,0 +1,63 @@
+:root {
+    --background-color: #fffde7;
+    --text-color: #062300;
+    --accent-color: #a542f1;
+    --header-font: 'Georgia', serif;
+    --body-font: 'Arial', sans-serif;
+    --button-bg-color: #a542f1;
+    --button-text-color: #ffffff;
+    --header-footer-bg-color: #c7e8c8;
+}
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+}
+
+.hero-overlay {
+    background: radial-gradient(circle, rgba(0, 0, 0, 0), black);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.hero-image {
+    background-image: url('./assets/home/hero_image.png');
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.heroBtn {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 20px 40px;
+    font-size: 18px;
+    background-color: #a542f189;
+    backdrop-filter: blur(3px);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.heroBtn:hover {
+    background-color: var(--button-bg-color);
+
+}
+
+
+section {
+    padding: 0;
+    border: none;
+}
