@@ -1,0 +1,69 @@
+#about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url('./assets/about/leaf-bg.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-top: 30px;
+}
+
+.about-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding: 50px;
+    gap: 40px;
+}
+
+.about-information {
+    width: 50%;
+}
+
+.about-image {
+    flex: 1;
+
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+.cta-about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    backdrop-filter: blur(3px);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: var(--button-text-color);
+}
+
+.aboutBtn {
+    background-color: #a542f189;
+}
+
+.ytBtn {
+    background-color: #f1424289;
+}
+
+.aboutBtn:hover {
+    background-color: var(--button-bg-color);
+}
+.ytBtn:hover {
+    background-color: #f14242;
+}
