@@ -23,7 +23,6 @@ export function About () {
                         <button className="ytBtn">Besök vår YouTube</button>
                     </div>
 
-                    
                 </div>
             </section>
         </>
