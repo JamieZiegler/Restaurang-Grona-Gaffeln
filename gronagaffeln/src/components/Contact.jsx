@@ -12,7 +12,7 @@ export function Contact() {
             återkommer vi inom 24 timmar.
           </p>
 
-          <form className="contact-form">
+          <form className="contact-form" method="POST" action="https://formshow.systementor.se/">
             <div className="form-group">
               <label htmlFor="name">Namn</label>
               <input
