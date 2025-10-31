@@ -17,10 +17,6 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contact-container:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 35px #062300;
-}
 
 .contact-container h2 {
   font-family: var(--header-font);
