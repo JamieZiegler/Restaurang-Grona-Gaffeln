@@ -1,6 +1,6 @@
 import React from "react";
 import "../Header.css";
-import logo from "../assets/logo-transparent.png"; // använd din logga
+import logo from "../assets/logo-transparent.png";
 
 export function Header() {
   return (
@@ -13,10 +13,10 @@ export function Header() {
 
         {/* Navigation */}
         <nav className="nav">
-          <a href="#" className="nav-link">Hem</a>
-          <a href="#" className="nav-link">Om oss</a>
-          <a href="#" className="nav-link">Meny</a>
-          <a href="#" className="nav-link">Kontakt</a>
+          <a href="#top" className="nav-link">Hem</a>
+          <a href="#about" className="nav-link">Om oss</a>
+          <a href="#menu" className="nav-link">Meny</a>
+          <a href="#contact" className="nav-link">Kontakt</a>
         </nav>
 
         {/* Valfri call-to-action */}

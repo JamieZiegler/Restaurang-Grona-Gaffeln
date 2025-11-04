@@ -4,7 +4,7 @@ import '../menu.css';
 export function Menu() {
     return (
     <>
-    <div className="menu-container">
+    <div id="menu" className="menu-container">
     <h1>Gröna gaffelns meny</h1>
     <p className="menu-description">
         Här hittar du vår fantasktiska helt vegetariska meny med olika valmöjligheter. 

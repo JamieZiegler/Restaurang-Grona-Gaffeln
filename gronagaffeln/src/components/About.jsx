@@ -6,25 +6,31 @@ export function About () {
 
     return (
         <>
-            <section id="about-page">
-                <div className="about-container">
-                    <div className="about-information">            
-                        <h1>Hållbarhet i fokus</h1>
-                        <h2>Vi är en restaurang med god vegetarisk mat för alla tillfällen!</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ut eius aliquid consectetur, corrupti architecto ipsum inventore. Molestias nostrum minima nulla quas. Hic numquam eaque in atque consequatur, harum reiciendis?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, expedita asperiores. Totam commodi officiis, modi maxime, esse distinctio nisi magni veniam doloremque ex earum, quia error? Rerum assumenda esse labore.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, doloremque. Repudiandae, voluptatibus? Quod, doloremque. Quasi, doloremque. Repudiandae, voluptatibus? Quod, doloremque.</p>
-                    </div>
-                    <div className="about-image">
-                        <img src={sallad} alt="En fräsch sallad med olika grönsaker" />
-                    </div>
-                    <div className="cta-about">
-                        <button className="aboutBtn">Läs mer om oss</button>
-                        <button className="ytBtn">Besök vår YouTube</button>
-                    </div>
-
+        <section id="about" className="hero-section">
+            <div className="hero-filter"></div>
+            <div className="leaf-overlay-container">
+                <div className="leaf-overlay"></div>
+            </div>
+            <div className="hero-content">
+                <div className="welcome-txt">
+                    <img className='sallad-img' src={sallad} alt="En fräsch sallad med olika grönsaker" />
+                    <h1>Gröna gaffeln</h1>
+        
+                    <h2>Hållbarhet med smak av lyx.</h2>
+        
+                    <p>På Gröna Gaffeln är hållbarhet och lyx inte är motsatser. Vår passion är att skapa mat som smakar bra i hjärtat och på tallriken.</p>
+                    <p>Varje rätt vi serverar är ett steg mot en mer hållbar framtid, där omtanke om naturen och respekt för råvaran går hand i hand med gastronomisk njutning. Vi tror att det går att äta utsökt, vackert och medvetet – utan kompromisser.</p>
+                    <p>Hos oss får du uppleva hur grön mat verkligen kan glänsa. En plats där maten tillagas med passion, där varje detalj räknas, och där måltiden blir en stund av både njutning och eftertanke. Vi vill inspirera till ett nytt sätt att se på mat – där lyx handlar om närvaro, smak och kvalitet, inte överflöd.</p>
+                    <p>Gröna Gaffeln – hållbarhet med smak av lyx, för alla som vill njuta med gott samvete.</p>
+        
                 </div>
-            </section>
+                
+                <div className="cta">
+                    <button className="aboutBtn">Läs mer om oss</button>
+                    <button className="ytBtn">Besök vår YouTube</button>
+                </div>
+            </div>
+        </section>
         </>
     )
 }
