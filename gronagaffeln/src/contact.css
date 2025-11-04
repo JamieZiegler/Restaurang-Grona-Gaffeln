@@ -58,13 +58,13 @@
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: #a542f1;
-  box-shadow: 0 0 10px rgba(165, 66, 241, 0.3);
+  border-color: var(--text-color);
+  box-shadow: 0 0 10px rgba(66, 241, 66, 0.3);
   outline: none;
 }
 
 .contact-btn {
-  background-color: var(--accent-color);
+  background-color: #065F46;
   color: var(--button-text-color);
   border: none;
   padding: 14px 20px;
@@ -77,9 +77,9 @@
 }
 
 .contact-btn:hover {
-  background-color: #9333ea;
-  box-shadow: 0 0 15px rgba(165, 66, 241, 0.4);
-  transform: scale(1.03);
+  background-color: var(--text-color);
+  box-shadow: 0 0 15px rgba(66, 241, 66, 0.3);
+  transform: scale(1.01);
 }
 
 .contact-info {
